@@ -55,7 +55,7 @@ EOP;
         $cs->registerScriptFile($assets.'/lang/zh_CN.js',CClientScript::POS_HEAD);
         $cs->registerScriptFile($assets.'/plugins/code/prettify.js',CClientScript::POS_HEAD); 
         list($name, $id) = $this->resolveNameID();
-   			$cs->registerScript($id,  $this->makeOptions(), CClientScript::POS_HEAD);
+				$cs->registerScript($id,  $this->makeOptions(), CClientScript::POS_HEAD);
     }
 }
 ?>
